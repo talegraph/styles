@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'atoms/typography';
+@import 'atoms/buttons';
+@import 'atoms/borders';
+@import 'molecules/cards';
+@import 'molecules/header';
+
+html, body{
+  padding: 0;
+  margin: 0;
+}
