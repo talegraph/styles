@@ -1,19 +1,29 @@
 .button{
-  padding: 5px 15px;
+  padding: 10px 20px;
   border: 0;
   border-radius: $border-radius;
   font-family: 'Brandon Grotesque', sans-serif;
   font-size: 15px;
+  color: white;
 }
 
 .button--primary{
   background-color: $color-primary-0;
+  &:hover{
+    background-color: $color-primary-3;
+  }
 }
 
 .button--secondary{
   background-color: $color-secondary-0;
+  &:hover{
+    background-color: $color-secondary-3;
+  }
 }
 
 .button--tertiary{
   background-color: $color-tertiary-0;
+  &:hover{
+    background-color: $color-tertiary-3;
+  }
 }

@@ -1,3 +1,8 @@
 .link{
   text-decoration: none;
+  color: white;
+  &:hover{
+    cursor: pointer;
+    color: $color-tertiary-3;
+  }
 }
