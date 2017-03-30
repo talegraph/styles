@@ -3,8 +3,12 @@
 @import 'atoms/buttons';
 @import 'atoms/borders';
 @import 'atoms/links';
+@import 'atoms/draggable';
+@import 'atoms/pagination';
+@import 'atoms/list';
 @import 'molecules/cards';
 @import 'molecules/header';
+@import 'molecules/form-group';
 
 html, body{
   padding: 0;

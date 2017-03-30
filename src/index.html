@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <script src="https://use.typekit.net/zoa2vvp.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <title>TaleGraph Pattern Library</title>
     <!-- inject:css -->
     <!-- endinject -->
-    <script src="https://use.typekit.net/zoa2vvp.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 </head>
 <body>
   <div>
@@ -23,7 +25,7 @@
     <button class="button button--primary">Tjena</button>
     <button class="button button--secondary">Tjena</button>
     <button class="button button--tertiary">Tjena</button>
-<br>
+
     <div class="card border">
       <div class="card__image"><img src="http://rocketroom.se/wp-content/uploads/sites/22/2015/03/hej.png"/></div>
       <div class="card__header"><h2>Viktig rubrik!</h2></div>
@@ -45,6 +47,74 @@
       </div>
     </div>
 
-  </div>
+
+    <div class="form-group">
+      <label class="form-group__label">Title:</label>
+      <input class="form-group__input">
+    </div>
+
+    <div class ="form-group">
+      <label class="form-group__label">Body:</label>
+      <textarea class="form-group__input form-group__input--textarea"></textarea>
+    </div>
+
+    <div class="form-group">
+
+      <label class="form-group__label">Position:</label>
+      <select class="form-group__input form-group__input--select">
+        <option>Top Left</option>
+        <option>Top Right</option>
+        <option>Bottom Left</option>
+        <option>Bottom Right</option>
+      </select>
+
+      <div class="pagination">
+        <button class="pagination__item">
+          Storypoint
+          <div class="pagination__number">1</div>
+        </button>
+        <button class="pagination__item pagination__item--active">
+          Storypoint
+          <div class="pagination__number">2</div>
+        </button>
+        <button class="pagination__item pagination__item--add">
+          Add
+          <div class="pagination__number">+</div>
+        </button>
+      </div>
+
+    </div>
+
+    <br><br>
+
+      <div class="list">
+
+        <h2>Fields</h2>
+
+        <div class="list__item draggable">I'm draggable</div>
+        <div class="list__item draggable draggable--dragging">I'm dragging</div>
+        <div class="list__item draggable draggable--placeholder">I'm still here</div>
+
+
+      </div>
+
+      <br>
+
+
+      <div class="card">
+        <h4 class="card__title">X Axis</h4>
+          <div class="draggable draggable--placeholder">
+            Drop here
+          </div>
+      </div>
+
+      <div class="card">
+        <h4 class="card__title">Y Axis</h4>
+        <div class="draggable">
+          I'm already dropped
+        </div>
+      </div>
+
+
 </body>
 </html>

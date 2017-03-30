@@ -1,0 +1,28 @@
+.form-group{
+  margin-top: 30px;
+}
+
+.form-group__label{
+  display: block;
+  font-size: $font-size;
+}
+
+.form-group__input{
+  width: 100%;
+  font-size: $font-size;
+  display: block;
+  padding: 5px;
+  border: 0;
+  border-bottom: 2px solid $color-grey-2;
+  outline: none;
+  background-color: #f8f8f8;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  &:focus{
+    border-bottom: 2px solid $color-primary-3;
+  }
+}
+
+.form-group__input--textarea{
+
+}
