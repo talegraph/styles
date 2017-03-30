@@ -1,9 +1,9 @@
 .border{
-border: 5px solid lightgrey;
+border: 5px solid $border-color;
 border-radius: 10px;
 }
 
 .border--dashed{
-  border: 5px dashed lightgrey;
+  border: 5px dashed $border-color;
   border-radius: 10px;
 }

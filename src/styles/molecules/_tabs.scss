@@ -1,0 +1,31 @@
+.tab{
+  display: inline-block;
+}
+.tab__nav{
+  margin-bottom: 0px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.tab__item{
+  text-align: center;
+  flex: 1;
+  margin-bottom: -2px;
+  padding: 7px 10px;
+  background-color: $color-primary-3;
+  border-top-right-radius: 10px;
+  font-size: $font-size;
+}
+.tab__item--active{
+  background-color: white !important;
+  border: 2px solid $border-color;
+  border-bottom: 0;
+  a{
+    color: grey;
+  }
+}
+.tab__content{
+  border: 2px solid $border-color;
+  padding: 30px;
+}
